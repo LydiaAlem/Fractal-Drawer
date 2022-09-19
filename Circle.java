@@ -4,7 +4,7 @@ import java.lang.Math;
 public class Circle{;
 
     public static void main(String[] args) {
-        //Accessor Method:
+        //Accessor Method & Verifying that the functions works:
         calculatePerimeter(5, 5, 2);
         calculateArea(3);
     }
