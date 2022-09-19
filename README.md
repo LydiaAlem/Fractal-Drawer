@@ -1,8 +1,8 @@
 # Project-1
 CSCI 1933 Project #1
 
-• Group members’ names and x500s
-LYDIA ALEM ALEM0046
+• Group members’ names and x500s: 
+LYDIA ALEM ALEM0046,
 BILESE DINSA DINSA004
 
 • Contributions of each partner (if working with a partner)
