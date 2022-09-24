@@ -1,7 +1,8 @@
-/CIRCLE CLASS:
+//CIRCLE CLASS:
 import java.lang.Math;
 
 public class Circle{
+//Do we need to add static in front of the 'constructors'??
     static double xPosition;
     static double yPosition;
     static double radius;
