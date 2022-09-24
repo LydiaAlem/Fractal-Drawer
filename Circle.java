@@ -1,4 +1,4 @@
-//CIRCLE CLASS:
+/CIRCLE CLASS:
 import java.lang.Math;
 
 public class Circle{
@@ -19,11 +19,11 @@ public class Circle{
         this.radius = radius;
     }
 
-    public double calculatePerimeter(double radius){
+    public double calculatePerimeter(){
         return (2 * Math.PI * radius);
     }
 
-    public double calculateArea(double radius) {
+    public double calculateArea() {
         return (Math.PI * (radius * radius));
     }
 
@@ -56,6 +56,8 @@ public class Circle{
         return radius;
     }
 
-    }    
 }
+
+
+
 
