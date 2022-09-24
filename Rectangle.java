@@ -44,6 +44,26 @@ public class Rectangle {
         this.width = width;
     }
 
+    public Color getColor(){
+        return color;
+    }
+
+    public double getXPos(){
+        return xPosition;
+    }
+
+    public double getYPos(){
+        return yPosition;
+    }
+
+    public double getHeight(){
+        return height;
+    }
+
+    public double getWidth(){
+        return width;
+    }
+
 }
 
 
