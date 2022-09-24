@@ -2,11 +2,10 @@
 import java.lang.Math;
 
 public class Circle{
-//Do we need to add static in front of the 'constructors'??
-    static double xPosition;
-    static double yPosition;
-    static double radius;
-    static Color color;
+    double xPosition;
+    double yPosition;
+    double radius;
+    Color color;
 
     public static void main(String[] args) {
         //calculatePerimeter(5.0);
@@ -14,11 +13,11 @@ public class Circle{
     }
 
 //I'm not sure if this is the EXACT way to add the constructor?
-    // public Circle(double xPosition, double yPosition, double radius) {
-    //     this.xPosition = xPosition;
-    //     this.yPosition = yPosition;
-    //     this.radius = radius;
-    // }
+    public Circle(double xPosition, double yPosition, double radius) {
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
+        this.radius = radius;
+    }
 
     public double calculatePerimeter(double radius){
         return (2 * Math.PI * radius);
@@ -29,16 +28,16 @@ public class Circle{
     }
 
     public void setColor(Color color) {
-        color = color;
+        this.color = color;
     }
 
     public void setPos(double xPosition, double yPosition) {
-        xPosition = xPosition;
-        yPosition = yPosition;
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
     }
 
     public void setRadius(double radius){
-        radius = radius;
+        this.radius = radius;
     }
 
     public Color getColor(){
@@ -57,18 +56,6 @@ public class Circle{
         return radius;
     }
 
-}
-
-
-
-
-
-   
-
-    
-
-
-    
-    
+    }    
 }
 
