@@ -2,14 +2,13 @@ import java.lang.Math;
 public class Triangle {
     double xPosition;
     double yPosition;
-    double width = 5;
-    double height = 10;
+    double width;
+    double height;
     Color color;
 
     public static void main(String[] args) {  
-        //System.out.println(calculatePerimeter());
-        //System.out.println(calculateArea());
-        //System.out.println(calculatePerimeter());
+        //
+        //
     }
 
 //Constructor:
@@ -25,28 +24,44 @@ public class Triangle {
     } 
 
     public double calculateArea() {
-        return (width * height) / 2;
+        return ((width* height) / 2);
     }
     
-    public Color setColor(Color color){
-        return color;
+    public void setColor(Color color){
+        this.color = color;
     }
 
-    public void setPos(double Xposition, double Yposition){
-        return;
+    public void setPos(double xPosition, double yPosition){
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
     }
 
     public void setHeight(double height) {
-        return;
+        this.height = height;
     }
 
     public void setWidth(double width) {
-        return;
+        this.width = width;
     }
 
     public Color getColor(Color color) {
         return color;
     }
 
-}
+    public double getXPos(){
+        return xPosition;
+    }
 
+    public double getYPos(){
+        return yPosition;
+    }
+
+    public double getHeight(){
+        return height;
+    }
+
+    public double getWidth(){
+        return width;
+    }
+
+}
