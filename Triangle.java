@@ -1,40 +1,50 @@
+import java.lang.Math;
 public class Triangle {
-    double Xposition;
-    double Yposition;
-    double width;
-    double height;
+    double xPosition;
+    double yPosition;
+    double width = 5;
+    double height = 10;
     Color color;
 
     public static void main(String[] args) {  
-        //System.out.println(calculatePerimeter(3,4));
-        System.out.println(calculateArea(3,4));
+        //System.out.println(calculatePerimeter());
+        //System.out.println(calculateArea());
+        //System.out.println(calculatePerimeter());
     }
 
-    public static double calculatePerimeter(double width, double Yposition) {
-        return ((2* width + Yposition));
+//Constructor:
+    public Triangle(double xPosition, double yPosition, double width, double height){
+        this.xPosition = xPosition;
+        this.yPosition = yPosition;
+        this.width = width;
+        this.height = height;
     }
 
-    public static double calculateArea(double width, double height) {
-        return((1/2) * width * height);
+    public double calculatePerimeter() {
+        return (width + (Math.sqrt(Math.pow(width, 2) + (4 * Math.pow(height, 2))))); //Formula for isoceles perimeter
+    } 
+
+    public double calculateArea() {
+        return (width * height) / 2;
     }
     
-    public static Color setColor(Color color){
+    public Color setColor(Color color){
         return color;
     }
 
-    public static void setPos(double Xposition, double Yposition){
+    public void setPos(double Xposition, double Yposition){
         return;
     }
 
-    public static void setHeight(double height) {
+    public void setHeight(double height) {
         return;
     }
 
-    public static void setWidth(double width) {
+    public void setWidth(double width) {
         return;
     }
 
-    public static Color getColor(Color color) {
+    public Color getColor(Color color) {
         return color;
     }
 
