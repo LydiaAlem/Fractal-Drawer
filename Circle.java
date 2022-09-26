@@ -1,4 +1,4 @@
-/CIRCLE CLASS:
+//CIRCLE CLASS:
 import java.lang.Math;
 
 public class Circle{
