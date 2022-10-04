@@ -7,9 +7,9 @@ public class Rectangle {
     Color color;
 
     public static void main(String[] args) {
-    //
-    //
-    }
+   
+    } 
+    
 
     //Constructor:
     public Rectangle(double xPosition, double yPosition, double width, double height){
