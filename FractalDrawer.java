@@ -16,8 +16,8 @@ public class FractalDrawer {
     }
 
     public static double drawFractal(String type) {
-        Canvas can = new Canvas(800, 800);
-        Color[] userColor = {Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA, Color.PINK, Color.DARK_GRAY, Color.cyan};
+        Canvas can = new Canvas(800, 800); //Setting the size of the canvas
+        Color[] userColor = {Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA, Color.PINK, Color.DARK_GRAY, Color.cyan}; //Creating the color bank
 
         if(type.equals("Triangle")){
             drawTriangleFractal(300, 700, 200, 200, userColor[0], can, 6) ;
@@ -40,8 +40,9 @@ public class FractalDrawer {
             can.drawShape(new_Triangle);
         }
         else {
+            
             Color[] userColor = {Color.RED, Color.ORANGE, Color.GREEN, Color.YELLOW, Color.BLUE, Color.MAGENTA, Color.PINK};
-    
+            //Adjusting all of the triangle iterations to follow fractal pattern.
             drawTriangleFractal(x-(width/2),y,width/2,height/2, userColor[level], can, level - 1);
             Triangle new_Triangle1 = new Triangle(x, y, width, height);
             drawTriangleFractal(x+(width), y, width/2, height/2, userColor[level], can, level -1);
@@ -49,7 +50,7 @@ public class FractalDrawer {
             drawTriangleFractal(x+(width/4),y-width,width/2,height/2, userColor[level], can, level - 1);
             Triangle new_Triangle3 = new Triangle(x, y, width, height);
             can.drawShape(new_Triangle);
-            totalArea = new_Triangle1.calculateArea() + new_Triangle2.calculateArea() + new_Triangle3.calculateArea();
+            totalArea = new_Triangle1.calculateArea() + new_Triangle2.calculateArea() + new_Triangle3.calculateArea(); //Sum of area
         }
     }
 
@@ -62,6 +63,7 @@ public class FractalDrawer {
         else {
             Color[] userColor =  {Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA, Color.PINK, Color.DARK_GRAY};
             can.drawShape(new_circle);
+            //Manipulating x and y positions using the radius, and continually making the radius smaller. 
             Circle first_circle = new Circle(x, y, radius/2);
             drawCircleFractal(radius/2, x-(radius), y+radius, userColor[level], can, level - 1);
             Circle second_circle = new Circle(x, y, radius/2);
@@ -77,10 +79,11 @@ public class FractalDrawer {
         Rectangle new_rectangle = new Rectangle(x, y, width, height);
         new_rectangle.setColor(c);
         if(level == 0){
-            can.drawShape(new_rectangle);
+            can.drawShape(new_rectangle); //Using Canvas.java to draw the initial shape.
         }
         else{
             Color[] userColor = {Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.MAGENTA, Color.PINK, Color.DARK_GRAY};
+            //Manipulating the width and height to be smaller, and also using width to adjust the x and y positions.
             drawRectangleFractal(width/2, height/2, x - (width/2), y-(width/2), userColor[level], can, level - 1);
             Rectangle new_rectangle1 = new Rectangle(x, y, width, height);
             drawRectangleFractal(width/2, height/2, x - (width/2), y + (width), userColor[level], can, level - 1);
@@ -96,11 +99,13 @@ public class FractalDrawer {
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        //Asking user for input
         System.out.print("Pick: Circle, Rectangle or Triangle: ");
         String type = input.nextLine();
+        //Calling drawFractal based on the user's input
         drawFractal(type);
         System.out.println(totalArea);
 
-    input.close();
+    input.close(); 
     }
 }
