@@ -44,7 +44,7 @@ public class Triangle {
         this.width = width;
     }
 
-    public Color getColor(Color color) {
+    public Color getColor() {
         return color;
     }
 
@@ -63,5 +63,4 @@ public class Triangle {
     public double getWidth(){
         return width;
     }
-
 }
