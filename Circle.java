@@ -7,12 +7,6 @@ public class Circle{
     double radius;
     Color color;
 
-    public static void main(String[] args) {
-        //calculatePerimeter(5.0);
-        //calculateArea(3);
-    }
-
-//I'm not sure if this is the EXACT way to add the constructor?
     public Circle(double xPosition, double yPosition, double radius) {
         this.xPosition = xPosition;
         this.yPosition = yPosition;
@@ -55,9 +49,4 @@ public class Circle{
     public double getRadius(){
         return radius;
     }
-
 }
-
-
-
-
