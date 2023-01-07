@@ -6,10 +6,6 @@ public class Triangle {
     double height;
     Color color;
 
-    public static void main(String[] args) {  
-        //
-        //
-    }
 
 //Constructor:
     public Triangle(double xPosition, double yPosition, double width, double height){
