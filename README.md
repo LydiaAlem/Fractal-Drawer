@@ -1,4 +1,4 @@
-# Project-1
+# FractalDrawer Project!
 CSCI 1933 Project #1
 
     Triangle Fractal:
