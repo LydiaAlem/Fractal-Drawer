@@ -1,5 +1,3 @@
-//BY ALEM0046 & DINSA004
-
 import java.util.Scanner;
 import java.awt.Color;
 
@@ -99,11 +97,9 @@ public class FractalDrawer {
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        //Asking user for input
-        System.out.print("Pick: Circle, Rectangle or Triangle: ");
+        System.out.print("Pick: Circle, Rectangle or Triangle: "); //Asking user for input
         String type = input.nextLine();
-        //Calling drawFractal based on the user's input
-        drawFractal(type);
+        drawFractal(type); //Calling drawFractal based on the user's input
         System.out.println(totalArea);
 
     input.close(); 
