@@ -18,11 +18,11 @@ public class Triangle {
     }
 
     public double calculatePerimeter() {
-        return (width + (Math.sqrt(Math.pow(width, 2) + (4 * Math.pow(height, 2))))); //Formula for isoceles perimeter
+        return (this.width + (Math.sqrt(Math.pow(this.width, 2.0) + (4.0 * Math.pow(this.height, 2.0))))); //Formula for isoceles perimeter
     } 
 
     public double calculateArea() {
-        return ((width* height) / 2);
+        return ((this.width * this.height) / 2);
     }
     
     public void setColor(Color color){
@@ -43,22 +43,22 @@ public class Triangle {
     }
 
     public Color getColor() {
-        return color;
+        return this.color;
     }
 
     public double getXPos(){
-        return xPosition;
+        return this.xPosition;
     }
 
     public double getYPos(){
-        return yPosition;
+        return this.yPosition;
     }
 
     public double getHeight(){
-        return height;
+        return this.height;
     }
 
     public double getWidth(){
-        return width;
+        return this.width;
     }
 }
