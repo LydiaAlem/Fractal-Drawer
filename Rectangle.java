@@ -1,4 +1,5 @@
-//Rectangle Class:
+import java.awt.Color;
+
 public class Rectangle {
     double xPosition;
     double yPosition;
