@@ -14,11 +14,11 @@ public class Circle{
     }
 
     public double calculatePerimeter(){
-        return (2 * Math.PI * radius);
+        return (2.0 * Math.PI * this.radius);
     }
 
     public double calculateArea() {
-        return (Math.PI * (radius * radius));
+        return (Math.PI * (this.radius * this.radius));
     }
 
     public void setColor(Color color) {
@@ -35,18 +35,18 @@ public class Circle{
     }
 
     public Color getColor(){
-        return color;
+        return this.color;
     }
 
     public double getXPos(){
-        return xPosition;
+        return this.xPosition;
     }
     
     public double getYPos() {
-        return yPosition;
+        return this.yPosition;
     }
 
     public double getRadius(){
-        return radius;
+        return this.radius;
     }
 }
