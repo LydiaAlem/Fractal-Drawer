@@ -1,6 +1,7 @@
 import java.awt.Color;
 
 public class Rectangle {
+    //instance variables
     double xPosition;
     double yPosition;
     double width;
@@ -16,11 +17,11 @@ public class Rectangle {
     }
 
     public double calculatePerimeter(){
-        return (width * 2) + (height * 2);
+        return (this.width * 2.0) + (this.height * 2.0);
     }
 
     public double calculateArea(){
-        return (width * height);
+        return (this.width * this.height);
     }
 
     public void setColor(Color color){
@@ -41,25 +42,22 @@ public class Rectangle {
     }
 
     public Color getColor(){
-        return color;
+        return this.color;
     }
 
     public double getXPos(){
-        return xPosition;
+        return this.xPosition;
     }
 
     public double getYPos(){
-        return yPosition;
+        return this.yPosition;
     }
 
     public double getHeight(){
-        return height;
+        return this.height;
     }
 
     public double getWidth(){
-        return width;
+        return this.width;
     }
-
 }
-
-
