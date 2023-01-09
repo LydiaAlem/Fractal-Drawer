@@ -1,4 +1,6 @@
 import java.lang.Math;
+import java.awt.Color;
+
 public class Triangle {
     double xPosition;
     double yPosition;
