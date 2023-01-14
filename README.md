@@ -14,19 +14,18 @@
     >> Install Java 8 or higher
         
 ### Installing
-    1) Clone the directory
-                git clone https://github.com/LydiaAlem/Fractal-Drawer.git
+##### 1) Clone the directory
+      git clone https://github.com/LydiaAlem/Fractal-Drawer.git
+           
          
-        2) Navigate to the project directory:
-                >> cd Fractal-Drawer
-         
-        3) Make sure you have the necessary dependencies installed, such as Java
+##### 2) Navigate to the project directory:
+      >> cd Fractal-Drawer
         
-        4) Compile the source code:
-                >> javac FractalDrawer.java
+##### 3) Compile the source code:
+      >> javac FractalDrawer.java
                 
-        5) Run the program
-                >> java FractalDrawer
+##### 4) Run the program
+      >> java FractalDrawer
         
         
 ## Built with
