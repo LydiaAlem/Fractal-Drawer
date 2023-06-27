@@ -36,11 +36,6 @@ the fractal shapes on the canvas.
         
 ## Built with
 
-<div class="empty-icon">
-  testing
-</div>
-
-
 #### - Java - programming language used. 
 #### - Maven - dependency management. [(Click here for more info!)](https://spring.io/guides/gs/maven/)
 #### - JApplet - used for creating applets, or small programs that run in a web browse. [(Click here for more info!)](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/javax/swing/JApplet.html)
