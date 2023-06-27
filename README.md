@@ -36,7 +36,10 @@ the fractal shapes on the canvas.
         
 ## Built with
 
-![GitHub followers](https://img.shields.io/github/followers/LydiaAlem?style=social)
+<div class="empty-icon">
+  testing
+</div>
+
 
 #### - Java - programming language used. 
 #### - Maven - dependency management. [(Click here for more info!)](https://spring.io/guides/gs/maven/)
