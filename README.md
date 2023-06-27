@@ -9,9 +9,11 @@ The program uses a combination of recursive algorithms and graphics libraries to
 the fractal shapes on the canvas.
 
 **Language used:**
+
 <img src="https://github.com/LydiaAlem/Fractal-Drawer/assets/107647071/dc301497-f0c2-4c30-851d-6421b30ff04f" alt="Java Logo" width="40" height="50">
 
 **Software used:**
+
 <img src="https://github.com/LydiaAlem/Assembly-LCD-Clock/assets/107647071/06ac4f62-e026-45bc-8292-adb29cfd6c59" alt="Assembly Logo" width="40" height="40"> 
 
 ## Getting Started
