@@ -36,6 +36,8 @@ the fractal shapes on the canvas.
         
 ## Built with
 
+![GitHub followers](https://img.shields.io/github/followers/LydiaAlem?style=social)
+
 #### - Java - programming language used. 
 #### - Maven - dependency management. [(Click here for more info!)](https://spring.io/guides/gs/maven/)
 #### - JApplet - used for creating applets, or small programs that run in a web browse. [(Click here for more info!)](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/javax/swing/JApplet.html)
