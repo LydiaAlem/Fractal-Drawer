@@ -1,12 +1,18 @@
 # Fractal Project!
         
-     This project was completed as part of an Algorithms and Data Structures course. The objective was to create a 
-     Java program that utilizes a visual "canvas" to display fractal triangles, circles, and rectangles. The 
-     "Canvas" class extends the Applet class, which is a built-in Java class for creating applets, or small 
-     programs that run in a web browser. The Applet class was used to create the Frame object, which serves 
-     as the top-level window for the program and provides a title bar and other standard window features. 
-     The program uses a combination of recursive algorithms and graphics libraries to generate and render 
-     the fractal shapes on the canvas.
+This project was completed as part of an Algorithms and Data Structures course. The objective was to create a 
+Java program that utilizes a visual "canvas" to display fractal triangles, circles, and rectangles. The 
+"Canvas" class extends the Applet class, which is a built-in Java class for creating applets, or small 
+programs that run in a web browser. The Applet class was used to create the Frame object, which serves 
+as the top-level window for the program and provides a title bar and other standard window features. 
+The program uses a combination of recursive algorithms and graphics libraries to generate and render 
+the fractal shapes on the canvas.
+
+**Language used:**
+<img src="https://github.com/LydiaAlem/Fractal-Drawer/assets/107647071/dc301497-f0c2-4c30-851d-6421b30ff04f" alt="Java Logo" width="40" height="50">
+
+**Software used:**
+<img src="https://github.com/LydiaAlem/Assembly-LCD-Clock/assets/107647071/06ac4f62-e026-45bc-8292-adb29cfd6c59" alt="Assembly Logo" width="40" height="40"> 
 
 ## Getting Started
                 
