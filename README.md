@@ -36,10 +36,10 @@ the fractal shapes on the canvas.
         
 ## Built with
 
-#### * Java - programming language used. 
-#### * Maven - dependency management. [(Click here for more info!)](https://spring.io/guides/gs/maven/)
-#### * JApplet - used for creating applets, or small programs that run in a web browse. [(Click here for more info!)](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/javax/swing/JApplet.html)
-#### * JFrame - a top-level window with a title bar and other standard window features.  [(Click here for more info!)](https://docs.oracle.com/javase/7/docs/api/javax/swing/JFrame.html)
+#### - Java - programming language used. 
+#### - Maven - dependency management. [(Click here for more info!)](https://spring.io/guides/gs/maven/)
+#### - JApplet - used for creating applets, or small programs that run in a web browse. [(Click here for more info!)](https://docs.oracle.com/en/java/javase/11/docs/api/java.desktop/javax/swing/JApplet.html)
+#### - JFrame - a top-level window with a title bar and other standard window features.  [(Click here for more info!)](https://docs.oracle.com/javase/7/docs/api/javax/swing/JFrame.html)
 
         
 
