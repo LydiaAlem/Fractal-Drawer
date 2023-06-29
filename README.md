@@ -1,6 +1,6 @@
 # Fractal Project!
         
-This Java project created fractal shapes using recursive algorithms and graphics libraries, displayed on a visual canvas. The Canvas class extended the Applet class, which created a top-level window with standard features using the Frame object. It was completed for an CSCI 1933: Introduction to Algorithms and Data Structures course!
+This Java project created fractal shapes using recursive algorithms and graphics libraries, displayed on a visual canvas. The Canvas class extended the Applet class, which created a top-level window with standard features using the Frame object. It was completed in the course CSCI 1933: Introduction to Algorithms and Data Structures course!
 
 ## Language & Software used:
 
